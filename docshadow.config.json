@@ -1,0 +1,11 @@
+{
+  "project_name": "docGen-ai",
+  "languages": [
+    "python"
+  ],
+  "output_dir": ".docshadow/",
+  "hooks": {
+    "post_commit": true
+  },
+  "ignore": ".docignore"
+}
