@@ -1,5 +1,10 @@
 # docShadow CLI — Silent Companion for Git
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![CLI](https://img.shields.io/badge/CLI-Click-000000?logo=python&logoColor=white)](https://click.palletsprojects.com/)
+[![Git](https://img.shields.io/badge/Git-GitPython-F05032?logo=git&logoColor=white)](https://git-scm.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **docShadow** (alias **GitShadow**) est un outil CLI qui génère automatiquement de la documentation JSON à chaque commit Git, conçu pour alimenter des interfaces UI avec une documentation de code structurée.
 
 ## 🎯 Objectif
@@ -172,7 +177,7 @@ docshadow/
 │   ├── generate.py     # doc generate
 │   └── status.py       # doc status
 ├── generator.py         # Extraction AST + génération JSON
-└── utils.py            # Utilitaires Git, fichiers, etc.
+└── utils.py             # Utilitaires Git, fichiers, etc.
 ```
 
 ## 🗺️ Roadmap
